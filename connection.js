@@ -6,7 +6,8 @@ const url = "mongodb+srv://prateekvaish449:Prateek449@cluster0.yneth.mongodb.net
 mongoose.connect(url)
 .then((result) => {
     console.log('database connected');
-}).catch((err) => {
+})
+.catch((err) => {
     console.log(err);
 });
 
