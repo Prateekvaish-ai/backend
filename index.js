@@ -31,4 +31,6 @@ app.get('/add', (req, res) => {
 // delete
 
 // starting the server
-app.listen(port, () => { console.log('Server started') });
+app.listen(port, () => {
+     console.log('Server started');
+     });
